@@ -1,0 +1,79 @@
+.tec-bg{
+  background:var(--cor-11);
+  box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0);
+}
+.tecnologia-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tec-left{
+  padding: 160px 0;
+}
+
+.tec-right img{
+  object-fit: cover;
+  object-position: left;
+  width: 100%;
+  height: 100%;
+}
+.tec-left a{
+  margin: 32px 0;
+}
+.tec-left > div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.tec-left h3{
+  margin-bottom:8px;
+  width:max-content;
+}
+.tec-left img{
+  width: 24px;
+margin-bottom: 8px;
+}
+.tec-left > span{
+  display: block;
+  margin-bottom: 20px;
+}
+.tec-left  h2{
+  margin-bottom: 32px;
+}
+.tec-left > p{
+  margin-bottom: 20px;
+}
+.tec-left a{
+  margin-bottom: 80px;
+}
+
+@media(max-width:800px){
+  .tecnologia-container{
+    grid-template-columns: 1fr;
+  }
+  .tec-left{
+    padding: 60px 60px;
+  }
+  .tec-right > img{
+    display: none;
+  }
+  .tec-left a{
+    margin-bottom: 60px;
+  }
+  .tec-bg{
+    box-shadow: inset 0 1px var(--cor-0), inset 0 -5px var(--cor-0);
+  }
+}
+@media(max-width:600px){
+  .tec-left > div{
+    flex-direction: column;
+  }
+}
