@@ -1,3 +1,9 @@
+.font-merri-I{
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 900;
+}
 .font-1-xs {
   font: 400 0.75rem/1.35 "Poppins", sans-serif;
 }

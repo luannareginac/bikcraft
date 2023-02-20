@@ -1,0 +1,11 @@
+.vantagens-bg {
+  background: var(--cor-12);
+}
+.vantagens h2 {
+  margin-bottom: 60px;
+}
+.vantagens ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 40px 80px;
+}

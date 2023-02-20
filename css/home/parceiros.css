@@ -9,6 +9,8 @@
   max-width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .parceiros-lista ul{
   padding: 0 20px;
@@ -22,13 +24,13 @@
   
 }
 .parceiros-lista img{
-margin: auto;
+  margin: auto;
 }
 .borda-left{
   border-left: 2px solid var(--cor-2);
 }
 .borda-botton{
-border-bottom:  2px solid var(--cor-2);
+  border-bottom:  2px solid var(--cor-2);
 }
 @media(max-width:800px){
   .parceiros-lista{
@@ -49,5 +51,6 @@ border-bottom:  2px solid var(--cor-2);
   }
   .parceiros-lista li:nth-child(n+7){
     border-top: 2px solid var(--cor-2);
+    
   }
 }
